@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: dalvipushkar/shadow-notes-frontend
+  tag: v5
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 80
+
+env:
+  REACT_APP_API_URL: http://shadow-notes-service:5000

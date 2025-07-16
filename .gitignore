@@ -1,0 +1,12 @@
+# Ignore sensitive files
+.env
+.env.production
+
+# Ignore folders that shouldn't be in repo
+node_modules
+build
+dist
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db

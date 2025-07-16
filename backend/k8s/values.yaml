@@ -1,0 +1,15 @@
+replicaCount: 1
+
+image:
+  repository: dalvipushkar/shadow-notes-backend
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  port: 5000
+
+containerPort: 5000
+
+env:
+  MONGO_URI: mongodb+srv://shadowadmin:D.Pushkar123@shadow-cluster.7l442ib.mongodb.net/?retryWrites=true&w=majority&appName=shadow-cluster
+  JWT_SECRET: supersecretkey

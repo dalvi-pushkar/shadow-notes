@@ -1,0 +1,15 @@
+# Ignore build artifacts and node_modules
+node_modules/
+build/
+dist/
+.DS_Store
+*.tgz
+*.log
+*.pack
+*.zip
+*.tar
+*.tar.gz
+*.lock
+.env
+.env.*
+public/

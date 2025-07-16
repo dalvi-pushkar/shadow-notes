@@ -1,0 +1,5 @@
+apiVersion: v2
+name: shadow-notes
+description: A Helm chart for Shadow Notes backend
+version: 0.1.0
+appVersion: "1.0"

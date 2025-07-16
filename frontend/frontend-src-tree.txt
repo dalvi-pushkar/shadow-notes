@@ -1,0 +1,26 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is 4090-C3F8
+C:\ALL SOFTWARES\CODE PLAYGROUND\SHADOW-NOTES\FRONTEND\SRC
+|   App.js
+|   index.css
+|   index.js
+|   
++---components
+|       CreateNote.js
+|       Notecard.js
+|       NoteModal.js
+|       PrivateRoutes.js
+|       ThemeToggle.js
+|       
++---context
+|       AuthContext.js
+|       ThemeContext.js
+|       
++---pages
+|       Dashboard.js
+|       Login.js
+|       Register.js
+|       
+\---utils
+        api.js
+        
