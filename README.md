@@ -6,7 +6,7 @@ A secure, cloud-native note-taking web app built using the MERN stack with moder
 
 ## 🌐 Live Demo 🚀
 
-* [https://shadownotes.vercel.app](https://shadow-notes.vercel.app)
+* [https://shadownotes.vercel.app](https://shadownotes.vercel.app)
 
 ---
 
