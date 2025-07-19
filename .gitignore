@@ -1,6 +1,7 @@
 # Ignore sensitive files
 .env
 .env.production
+.git
 
 # Ignore folders that shouldn't be in repo
 node_modules
