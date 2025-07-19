@@ -13,7 +13,7 @@ app.use(cors());
 mongoose
   .connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
+    // Removed useUnifiedTopology (deprecated)
   })
   .then(() => console.log('✅ MongoDB Atlas connected'))
   .catch((err) => console.error('❌ MongoDB connection error:', err));
@@ -21,6 +21,11 @@ mongoose
 // Routes
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/notes', require('./routes/notes'));
+
+// Health Check Route (for Render + UptimeRobot)
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'ok' });
+});
 
 // Test Route
 app.get('/', (req, res) => {
